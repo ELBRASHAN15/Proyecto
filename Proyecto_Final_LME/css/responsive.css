@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.toggle{
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+label.toggle, [id^=drop]{
+    display:none;
+} 
+
+@media (max-width: 992px) {
+    
+    .btn-header{
+        font-size:larger;
+    }
+
+}
+
+@media (max-width: 768px){
+
+ .btn-header{
+        font-size:smaller;
+    }
+
+    .foot-navegation{
+        display: none;
+    }
+}
+
+@media (max-width: 576px){
+
+    header{
+        height: 80px;
+    }
+
+    header>img{ /*Cambiado*/
+        float: left;
+        height: 40px;
+        width: 25%;
+        margin: 3% 36%;
+        display: blocks;
+    }
+
+    label.toggle{
+        display:inline;
+        align-items:center;
+    } 
+
+    [id^=drop]{
+        display: none;
+        position: static;
+    }
+
+    .principal-header{
+        position:fixed;
+        width:100%;
+        height:100vh;
+        background: black;
+        top:60px;
+        left: -100%;
+        text-align:center;
+        transition:all .5s;
+    }
+
+    nav .principal-header li a{
+        display: block;
+    }
+
+    #drop:checked ~ .principal-header{
+        left: 0;
+    }
+
+    .foot-navegation{
+        display: none;
+    }
+
+    .contactomapa iframe{
+        width: 100%;
+        height: 100%;
+    }
+ 
+    .contenedores2 aside{
+        display: none;
+    }
+
+    .contenedores aside{
+        display: none;
+    }
+
+    .contenedores section{
+        border: 10px solid grey;
+        width: 100%;
+        float: left;
+    }
+
+    .contenedores section article img{
+        width: 100%;
+        padding-top: 1.3%;
+        position: static;
+        margin: 3px;
+        float: left;
+    }
+
+    .contenedores2 section{
+        border: 9px solid grey;
+        padding-top: 10%;
+        width: 100%;
+        height: 50%;
+    }
+
+    .contenedores3 aside{
+      display: none;
+    }
+
+    .contenedores3 section article iframe{
+        width: 100%;
+    }
+
+    .contenedores3 section{
+        border-left: 10px solid grey;
+        border-right: 10px solid grey;
+        border-bottom: 10px solid grey;
+        width: 100%;
+        overflow: hidden;
+        float: left;
+    }
+}

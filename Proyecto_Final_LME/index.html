@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <title> Mercedes F1 Team</title>
+    <link rel="icon" href="img/logo_pestana.ico">
+
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/0fc218370a.js" crossorigin="anonymous"></script>
+            <!--FUENTE DE GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ramaraja&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+<!-- Header -->
+<header>
+  <img src="img/merc_logo.png" alt="Mercedes F1 Team logo">
+  <nav>
+    <label for="drop"class="toggle icono">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </label>
+  <input type="checkbox"id="drop"/>
+      <ul class="principal-header" >
+          <li class="btn-header">
+              <a href="aboutUs.html">Acerca</a>
+          </li>
+          <li class="btn-header">
+              <a href="creadores.html">Creadores</a>
+          </li>
+          <li class="btn-header">
+              <a href="galeria.html">Galeria de imagenes</a>
+          </li>
+          <li class="btn-header">
+              <a href="contacto.html">Contacto</a>
+          </li>
+      </ul>
+    
+  </nav>
+</header>
+<!-- Slider, hecho con bootstrap-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/merc_inicio.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/merc_inicio2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/merc_inicio3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Pilotos -->
+<div class="contenedores">
+    <section>
+      <article class="GP">
+        <img src="./img/emilia.jpg" alt="Gran premio de la Emilia-Romagna" class="img-responsive">
+        <h1 class="titulo1">Gran Premio de la Emilia-Romagna 2022</h1>
+        <ul>
+          <li class="text1">Participación número 182 de Lewis Hamilton con Mercedes F1 Team</li>
+          <li class="text1">George Russell sigue con un flujo constante de puntos para el equipo</li>
+        </ul>
+        <hr>
+        <br>
+        <p class="text1">Uno de las mayores decepciones para Lewis Hamilton, comenzando P14 y terminando P13, detrás de Pierre Gasly de AlphaTauri.</p>
+        <p class="text1">George Russell inicia en P11, termina la carrera en P4 sumando 12 puntos para el campeonato.</p>
+        <p class="text1">Regresaremos más fuertes para los próximos grandes premios.</p>
+
+      </article>
+    </section>
+    <aside class="pilotos">
+        <h2 class="titulo2">Pilotos </h2>
+        <hr>
+        <img src="./img/hamilton.jpg" alt="Lewis Hamilton" class="img-responsive">
+        <br>
+        <br>
+        <p>Lewis Hamilton 44</p>
+        <img src="./img/russell.jpg" alt="George Russell" class="img-responsive">
+        <br>
+        <br>
+        <p>George Russell 63</p>
+    </aside>
+</div>
+<div class="contenedores2">
+  <aside>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/merch3.jpg" class="d-block w-100" alt="..." class="img-responsive">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text1">$79.99</h5>
+            <p class="text1">Lewis Hamilton Bundle</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/merch2.jpg" class="d-block w-100" alt="..." class="img-responsive">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text1">$49.99</h5>
+            <p class="text1">LH44 Edition</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/merch1.jpg" class="d-block w-100" alt="..." class="img-responsive">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text1">$89.99</h5>
+            <p class="text1">Camiseta Mercedes</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </aside>
+  <section>
+    <article>
+      <img src="./img/w13.jpg" alt="" class="img-responsive">
+      <h2 class="titulo1">Acerca del nuevo F1 W13 luego de los test</h2>
+      <p class="text1">
+        El Mercedes W13 parece otro en Bahréin después de incorporar una carrocería estrechada, una mínima expresión de pontones que confirma que el coche de Barcelona no estaba completo. Y que genera tanta expectación como escepticismo en el comienzo de los últimos test de pretemporada de la Fórmula 1. <br>
+        Hamilton estrenó el monoplaza este jueves sin vueltas brillantes y con cierta inestabilidad en las frenadas, aunque la pista sucia y el sol abrasador no brindan las condiciones idóneas de rodaje.             </article>
+  </section>
+</div>
+  <div class="contenedores3">
+    <section>
+      <article>
+        <iframe width="99%" height="555" src="https://www.youtube.com/embed/BBCTsNc_I8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+      </article>
+    </section>
+    <aside>
+      <article>
+        <h1 class="titulo1">Calendario F1</h1>
+        <h2 class="titulo2">Gran Premio de Miami</h2>
+        <h3 class="text1">Mayo 06 - 08 <br> Información del circuito</h3>
+        <h4 class="text1">Curvas: 19 
+          Zonas de DRS: 2</h4>
+      </article>
+    </aside>
+    <aside>        
+          <img src="./img/miami.png" alt="Layout GP Miami" class="img-responsive">
+    </aside>
+</div>
+</div>
+
+        <footer>
+  <div class="foot-navegation">
+    <ul class="footer-nav" >
+          <li class="footer-nav-element"  >
+           <a href="aboutUs.html"><i class="fa-solid fa-user-gear"></i> Acerca de</a>
+          </li>
+          <li class="footer-nav-element">
+              <a href="creadores.html"><i class="fa-solid fa-people-group"></i></i> Creadores</a>
+          </li>
+          <li class="footer-nav-element">
+              <a href="galeria.html"><i class="fa-solid fa-users-gear"></i> Galeria de imagenes</a>
+          </li>
+          <li class="footer-nav-element">
+              <a href="contacto.html"><i class="fa-solid fa-headset"></i> Contactanos</a>
+          </li>
+    </ul>
+  </div>
+
+  <div class="foot-content">
+    <div class="foot-content-element">
+      <h4>Patrocinadores oficiales</h4>
+   <img src="./img/petronas.png" alt=""><br>
+   <img src="./img/ftx.png" alt="">
+    </div>
+    <div class="foot-content-element">
+      <img src="img/mercedes_logo.png" alt="">
+      <h3>MERCEDES BENZ</h3>
+    </div>
+    <div class="foot-content-element">
+      <a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a> <br>
+      <a href=""><i class="fa-brands fa-instagram"></i> Instagran</a> <br>
+      <a href=""><i class="fa-brands fa-twitter"></i> twitter</a>
+    </div>
+  </div>
+  <div class="foot">
+    ©copyright TEAM MERCS
+  </div>
+</footer>
+  </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
